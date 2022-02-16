@@ -3,11 +3,15 @@
 
 ```mermaid
 graph TD
-main-->branch1
-main-->branch2
-branch1-->release
-branch2-->release
-classDef default fill:#ffcc33,stroke:#000000,stroke-width:2px
+idPolicy(csi-policy)-->|xml|idCia(cia)
+
+class idCia teal;
+
+classDef default fill:#ffd000, stroke:#1a1446, stroke-width:2px;
+classDef blue fill:#1a1446, stroke:#1a1446, stroke-width:2px;
+classDef teal fill:#78e1e1, stroke:#1a1446, stroke-width:2px;
+classDef darkteal fill:#06748c, stroke:#1a1446, stroke-width:2px;
+classDef gray fill:#f5f5f5, stroke:#1a1446, stroke-width:2px;
 ```
 
 ```mermaid
