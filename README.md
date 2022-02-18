@@ -6,7 +6,7 @@
 ```mermaid
 flowchart TD
     idClaimCenter(ClaimCenter) <--> | bXML | idPolicy(csi-policy)
-    idPolicy(csi-policy) <--> | ACORD | idCpods(CPoDS)
+    idPolicy(csi-policy) <--> | AMXML | idCpods(CPoDS)
     idPolicy(csi-policy) <--> | ACORD | idDaf(DAF)
     idPolicy(csi-policy) <--> | ACORD | idPlcm(PLCM)
 
